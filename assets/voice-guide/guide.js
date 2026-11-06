@@ -13,7 +13,7 @@
   const status = document.getElementById('guide-status');
   const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
   let enabled = false;
-  let expanded = !matchMedia('(max-width: 600px)').matches;
+  let expanded = false;
   let current = null;
   let playing = null;
   let ticket = 0;
